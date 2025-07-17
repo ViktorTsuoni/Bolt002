@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Início</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .cabeca {
+            background-color: #ecb653;
+            color: black;
+            text-align: left;
+            padding: 15px;
+        }
+        .aphex {
+            display: flex;
+            gap: 8px;
+            justify-content: left;
+            margin: 8px;
+            align-items: center;
+        }
+        .aphex img {
+            height: 92px;
+            width: 94px;
+        }
+        h2 {
+            font-family: calibri;
+            font-size: 25px;
+        }
+        .principal {
+            background-color: #9d63cb;
+            padding: 21px;
+            border: 3px solid #9d63cb;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .sk8 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .sk8-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; /* Adicionado um pequeno espaçamento */
+            width: 100%;
+        }
+        .sk8 img {
+            width: 460px;
+            height: 430px;
+            object-fit: cover;
+        }
+        .sk8 button {
+            width: 140px;
+            height: 65px;
+            border: 3px solid #ecb653;
+            border-radius: 6px;
+            background-color: #ecb653;
+            color: black;
+            cursor: pointer;
+            font-size: 19px;
+            margin-top: 15px;
+        }
+        .rodape {
+            background-color: #270065;
+            padding: 50px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabeca">
+        <div class="aphex">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Aphex_Twin_logo.svg/2048px-Aphex_Twin_logo.svg.png" alt="Logo">
+            <h2>Skate Hub - Início</h2>
+        </div>
+    </div>
+    <div class="principal">
+        <div class="sk8">
+            <div class="sk8-images">
+                <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/rayssa_leal_olimpiada-e1722172556384.jpg?w=1200&h=1200&crop=1" alt="Rayssa Leal">
+                <img src="https://d.newsweek.com/en/full/918081/tony-hawk-new.jpg" alt="Tony Hawk">
+                <img src="https://cdn.agenciamural.org.br/2022/07/12172109/Pista-de-skate-em-Cidade-Dutra-zona-sul-de-SP-3-1024x621.jpg" alt="Pista de skate">
+                <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2015/04/20/1331718124483_2/keegan-palmer-rides-the-skate-bowl-at-hi-adventure-guesthouse-in-florianopolis" alt="Keegan Palmer">
+            </div>
+            <button onclick="irParaLogin()">Login</button>
+        </div>
+    </div>
+    <div class="rodape">
+        <h3>Skate Hub</h3>
+        <p>Escola de Skate Profissional</p>
+        <p>Ponta Negra</p>
+        <p>© 2025 Skate Hub - Todos os direitos reservados</p>
+    </div>
+
+    <script>
+        function irParaLogin() {
+            window.location.href = 'login.html'; 
+        }
+    </script>
+</body>
+
+</html>
